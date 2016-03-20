@@ -33,7 +33,7 @@ public class CarrosAdapter extends RecyclerView.Adapter<CarrosAdapter.CarrosView
     public void onBindViewHolder(CarrosViewHolder holder, int position) {
 
         Carros c = carros.get(position);
-        holder.imgView.setImageAlpha(c.getIdImageCarro());
+        holder.imgView.setImageDrawable(context.getResources().getDrawable(c.getIdImageCarro()));
         holder.textView.setText(c.getNomeCarro());
     }
 
