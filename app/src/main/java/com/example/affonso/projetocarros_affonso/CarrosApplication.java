@@ -19,16 +19,16 @@ public class CarrosApplication extends Application {
     }
 
     private void criarCarrosPadrao() {
-        carros.add(new Carros("bmw",R.drawable.bmw_720));
-        carros.add(new Carros("camaro",R.drawable.camaro));
-        carros.add(new Carros("corvette",R.drawable.corvette));
-        carros.add(new Carros("ct6",R.drawable.ct6));
-        carros.add(new Carros("db77",R.drawable.db77));
-        carros.add(new Carros("gallardo",R.drawable.gallardo));
-        carros.add(new Carros("mustang",R.drawable.mustang));
-        carros.add(new Carros("pagani", R.drawable.paganni_zonda));
-        carros.add(new Carros("porsche",R.drawable.porsche_911));
-        carros.add(new Carros("vyron", R.drawable.vyron));
+        carros.add(new Carros("BMW",R.drawable.bmw_720));
+        carros.add(new Carros("Camaro",R.drawable.camaro));
+        carros.add(new Carros("Corvette",R.drawable.corvette));
+        carros.add(new Carros("CT6",R.drawable.ct6));
+        carros.add(new Carros("DB77",R.drawable.db77));
+        carros.add(new Carros("Gallardo",R.drawable.gallardo));
+        carros.add(new Carros("Mustang",R.drawable.mustang));
+        carros.add(new Carros("Pagani", R.drawable.paganni_zonda));
+        carros.add(new Carros("Porsche",R.drawable.porsche_911));
+        carros.add(new Carros("Vyron", R.drawable.vyron));
     }
     public List<Carros> getCarros () {
         return carros;

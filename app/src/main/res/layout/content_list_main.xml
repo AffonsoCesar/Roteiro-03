@@ -17,5 +17,7 @@
         android:layout_height="match_parent"
         android:textSize="18dp"
         android:textColor="@color/md_text"
+        android:gravity="center_vertical"
+        android:text="carro"
         android:id="@+id/text_list_main"/>
 </LinearLayout>
